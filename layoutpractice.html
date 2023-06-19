@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ 
+     <!-- Compiled and minified JavaScript -->
+     
+     <title>CSS materialize</title>
+ <style>
+ul.inline-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.inline-list li {
+      display: inline; 
+      margin-right: 20px; 
+    }
+
+.td1 {
+    /* display: inline; */
+    /* width: 100px; */
+  /* height: auto; */
+  /* border: 1px solid rgb(164, 164, 164); */
+  padding: 0;
+  margin: 3px;
+  
+  /* font-weight: 200; */
+  text-align: center;
+  }
+ 
+
+.small-box{
+    margin:5%;
+     /* width: 40%;  */
+     height: 90px; 
+    /* left: auto; */
+    border-radius: 5px
+}
+.img-container{
+
+text-align: right;
+position: relative;
+top: -20px;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+            background: transparent;
+            }
+.tabs .indicator{
+    background-color: #1a237e;
+}
+ </style>
+ 
+</head>
+<body>
+    
+        <div class="col s12 l4" style="height: auto;margin: 2%;">
+            <h4 class="purple-text bold" style="font-weight: lighter bold;">School Activity Report</h4>
+        </div>
+        <div class="row">
+            <div class="col s12 l2" style="height: auto;margin: 2%;">
+                <p>School Name</p>
+                <div class="input-field">
+                    <select>
+                      <option value="" disabled selected>School Name</option>
+                      <option value="1">Little Flower</option>
+                      <option value="2">Bhai Mastan Singh School</option>
+                      <option value="3">Akal Academy</option>
+                    </select>
+                </div>
+                
+            </div>
+            <div class="col s12 l5" style="height: auto;margin: 2%;" >
+                <div class="">
+                    <p>Duration</p>
+                    <a class="waves-effect waves-light btn" style="background-color: #ffa000;">1 Week</a>
+                    <a class="waves-effect waves-light btn" style="background-color: #bdbdbd;">2 Week</a>
+                    <a class="waves-effect waves-light btn" style="background-color: #bdbdbd;">3 Week</a>
+                </div>
+
+                
+
+
+
+            </div>
+        </div>
+
+        <div class="row" style="height: auto;margin: 2%;">
+            <div class="col s12 l3 z-depth-3" style="margin: 25px;height: auto; width: 390px; background: #FFFFFF;border: 1px solid #E0E4F0;border-radius: 5px;" id="colnn">
+                <div class="col s12 l6 " style="height: auto;  border-radius: 5px; margin: 5%; width: 40%; background: #EDE6F4;font-size: 10px ;font-weight: bold;"  >
+                    <p style="font-size: 10px;">Class/Batches</p>
+                    <h6 class="deep-purple-text lighten-2" style="font-weight: bold;">12</h6>
+                    <div class="img-container">
+                        <img src="fluent_person-board-16-filled.svg">
+                    </div>
+                </div>
+                <div class="col s12 l6 " style="height: auto;  border-radius: 5px; margin: 5%; width: 40%; background: #E3E8F2;font-size: 10px ;font-weight: bold;" >
+                    <p style="font-size: 10px;">Students</p>
+                    <h6 class="blue-text accent-2" style="font-weight: bold;">120</h6>
+                    <div class="img-container">
+                        <img src="bande.svg">
+                    </div>
+                </div>
+                <div class="col s12 l6" style="height: auto; ; margin:5%; width: 40%; border-radius: 5px; background: #f9efeb;font-size: 10px ;font-weight: bold; " >
+                    <p style="font-size: 10px;">Attendance</p>
+                    <h6 class="amber-text darken-1" style="font-weight: bold;">63%</h6>
+                    <div class="img-container">
+                        <img src="uim_calender.svg">
+                    </div>
+                </div>
+                <div class="col s12 l6" style="height: auto; ; margin:5%; width: 40%;border-radius: 5px;background: #ECDEFF;font-size: 10px ;font-weight: bold;"  id="Right2">
+                    <p style="font-size: 10px;">Performance</p>
+                    <h6 class="deep-purple-text lighten-2" style="font-weight: bold;">Expert</h6>
+                    <div class="img-container" style="">
+                        <img src="idea 1.svg">
+                    </div>
+                </div>
+                <div class="col s12 l6" style="height: auto; ; margin:5%; width:40% ;border-radius: 5px;background: #F5EEE0;font-size: 10px ;font-weight: bold;" id="Left3">
+                    <p style="font-size: 10px;">Subject Covered</p>
+                    <h6 class="amber-text" style="font-weight: bold;">4</h6>
+                    <div class="img-container">
+                        <img src="healthicons_i-exam-multiple-choice.svg">
+                    </div>
+                </div>
+                <div class="col s12 l6" style="height: auto; ; margin:5%; width: 40%;border-radius: 5px;background: #F1E5E6;font-size: 10px ;font-weight: bold;">
+                    <p style="font-size: 10px;">Lacture Completed</p>
+                    <h6 class="red-text lighten-3" style="font-weight: bold;">22</h6>
+                    <div class="img-container">
+                        <img src="fluent_play-circle-16-regular.svg">
+                    </div>
+                </div>
+                <div class="col s12 l6" style="height: auto; ; margin:5%; width: 40%;border-radius: 5px;background: #F4FAFF;font-size: 10px ;font-weight: bold; " id="Left4">
+                    <p style="font-size: 10px;">LPS</p>
+                    <h6 class="light-blue-text darken-4" style="font-weight: bold;">17</h6>
+                    <div class="img-container">
+                        <img src="fa-solid_chalkboard-teacher.svg">
+                    </div>
+                </div>
+                <div class="col s12 l6" style="height: auto; ; margin:5%; width: 40%;border-radius: 5px;background: #F3FFFC;font-size: 10px ;font-weight: bold;" id="Right4">
+                    <p style="font-size: 10px;">Tests Conducted</p>
+                    <h6 class="deep-purple-text lighten-2" style="font-weight: bold;">3</h6>
+                    <div class="img-container">
+                        <img src="result 1.svg">
+                    </div>
+                </div>
+            </div>
+
+
+<!-- colnn3 position: absolute; width: 392px; height: 563px; left: 561px;top: 204px; -->
+            <div class="col s12 l3 z-depth-3" style="margin: 25px;height: 570px;width: 390px
+            ;background: #FFFFFF;border: 1px solid #E0E4F0;;border-radius: 5px;">
+            <ul class="tabs">
+                <li class="tab col s4">
+                    <a href="#Lecture" class="active " style="color: #3751FF;font-weight: bold;">Lecture</a>
+                </li>
+                <li class="tab col s4">
+                    <a href="#LPS" class="active " style="color: #3751FF;font-weight: bold;">LPS</a>
+                </li>
+                <li class="tab col s4">
+                    <a href="#test400" class="active " style="color: #3751FF;font-weight: bold;">Test</a>
+                </li>
+            </ul>
+            <div id="Lecture" class="col s12">
+                <table class="highlight responsive table-box" style="border-collapse: separate; max-width: 95%; border-spacing: 10px;">
+                <!--  -->
+
+                <!-- <textarea id="r2-value" class="materialize-textarea"><p style="word-spacing: 3px;">Subject   Class 6     Class 7     Class 8</p></textarea> -->
+
+                    
+                      <tr style="border-radius: 4px;">
+                          <th data-field="Subject" class="purple-text">Subject</th>
+                          <th data-field="class" class="purple-text">Class 6</th>
+                          <th data-field="class" class="purple-text">Class 7</th>
+                          <th data-field="class" class="purple-text">Class 8</th>
+                        </tr>
+                     
+                  
+                    
+                      <tr>
+                          <td style="">Maths</td>
+                          <td class ="td1" style="border: 1px solid #bdbdbd;"><span>25</span></td>
+                          <td class="td1" style="border: 1px solid #bdbdbd;">25</td>
+                          <td class="td1" style="border: 1px solid #bdbdbd;">25</td>
+                        </tr>
+                        <tr>
+                          <td style="">Chemistry</td>
+                          <td class="td1" style="border: 1px solid #bdbdbd;">25</td>
+                          <td class="td1" style="border: 1px solid #bdbdbd;">25</td>
+                          <td class="td1" style="border: 1px solid #bdbdbd;">25</td>
+                        </tr>
+                        <tr>
+                          <td style="">Physics</td>
+                          <td class="td1" style="border: 1px solid #bdbdbd;">25</td>
+                          <td class="td1" style="border: 1px solid #bdbdbd;">25</td>
+                          <td class="td1" style="border: 1px solid #bdbdbd;">25</td>
+                        </tr>
+                        <tr>
+                          <td style="">Biology</td>
+                          <td class="td1" style="border: 1px solid #bdbdbd;">25</td>
+                          <td class="td1" style="border: 1px solid #bdbdbd;">25</td>
+                          <td class="td1" style="border: 1px solid #bdbdbd;">25</td>
+                        </tr>
+                    
+                  </table>
+
+
+                
+
+
+
+
+            </div>  
+            <div id="LPS" class="col s12">
+                <p class="flow-text indigo-text text-darken-4">Live Practice Session</p>
+                <p>Live Session A session in which the Performance are broadcast or recorded in real time Live Performance A performance in real time when no retakes are possible.</p>
+                <p>There are optional Live Session events which occur at specific times.</p>
+            </div>
+            <div id="test400" class="col s12"><p class="flow-text indigo-text text-darken-4">About Test..</p>
+                <p>Many students just focus on theory and practice few questions, that is not a good way to prepare for exams like JEE, JEE expects students to solve questions and you can only be good at that only if you practice. So practice a lot, even of you think a question is very easy still do that question just to be sure.</p>
+            </div>
+
+
+            </div>
+
+        <div class="col s12 l3 z-depth-3" style="margin: 25px;height: 570px;width: 390px; background: #FFFFFF;border: 1px solid #E0E4F0;border-radius: 5px">
+            <div class="row" style="margin-bottom: 0px;">
+                <div class="col-12">
+                  <div class="row" style="margin-bottom: 0px;">
+                    <div class="col l5" style="height: auto;margin: 2%;">
+                      
+                      <p class="purple-text bold" style="font-weight:bold;">Activity Details</p>
+                    </div>
+                    <div class="col l5" style="height: auto;margin: 10px">
+                      
+                      <p style="color:rgb(23, 23, 248) ;"><i>Week Of 23 Sep 2022</i></p>
+                      <h6 style="color:rgb(23, 23, 248) ; font-weight: bold;"> Class 6 <span style="color: #4a4b4d;">></span> Biology</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+                <div class="row" style="border: 1px solid #E0E4F0;border-radius: 5px; margin: 4px;" >
+                    
+                
+                        <div class="col s1" style="font-weight: lighter bold;">1</div>
+                        <div class="col s4 " style="height: 110px; margin-right: 10px; ;font-size: 10px ;"  >
+                            <ul>
+                                <li><img src="boxex.svg" alt=""> Theory Lecture</li>
+                                <li><img src="bxs_user-detail.svg" alt=""> nkush Garg</li>
+                                <li><img src="tickmark.svg" alt=""> Yes > 8Qs</li>
+                                <li><span><img src="bluebanda.svg" alt=""> 25   </span> <span><img src="techi.svg" alt=""> 98%</span></li>
+                            </ul>
+                        </div>
+                        <div class="col s4 " style="height: 60px; ; margin-left:70px;font-size: 10px; ;" >
+                                <ul>
+                                    <li><img src="keyboard-open.svg" alt=""> Content Covered</li>
+                                    <li>Life Processes, Animal Species</li>
+                                    <li><img src="Group 92530.svg" alt=""> SpeEdLabs Issues</li>
+                                    <li><img src="lal flag.svg" alt=""> Partner Issues</li>
+                                </ul>
+                            </div>
+                    
+                </div>
+
+
+
+                <div class="row" style="border: 1px solid #E0E4F0;border-radius: 5px; margin: 4px;" >
+                    
+                
+                    <div class="col s1" style="font-weight: lighter bold;">2</div>
+                    <div class="col s4 " style="height: 110px; margin-right: 10px; ;font-size: 10px ;"  >
+                        <ul>
+                            <li><img src="boxex.svg" alt=""> Theory Lecture</li>
+                            <li><img src="bxs_user-detail.svg" alt=""> Ankush Garg</li>
+                            <li><img src="tickmark.svg" alt=""> Yes > 8Qs</li>
+                            <li><span><img src="bluebanda.svg" alt=""> 25   </span> <span><img src="techi.svg" alt=""> 98%</span></li>
+                        </ul>
+                    </div>
+                    <div class="col s4 " style="height: 90px;  border-radius: 5px; margin-left:70px;font-size: 10px ;" >
+                            <ul>
+                                <li><img src="keyboard-open.svg" alt=""> Content Covered</li>
+                                <li>Life Processes, Animal Species</li>
+                                <li><img src="Group 92530.svg" alt=""> SpeEdLabs Issues</li>
+                                <li><img src="lal flag.svg" alt=""> Partner Issues</li>
+                            </ul>
+                        </div>
+                
+                </div>
+
+                <div class="row" style="border: 1px solid #E0E4F0;border-radius: 5px; margin: 4px;" >
+                    
+                
+                        <div class="col s1" style="font-weight: lighter bold;">3</div>
+                    <div class="col s4 " style="height: 110px; margin-right: 10px; ;font-size: 10px ;"  >
+                        <ul>
+                            <li><img src="boxex.svg" alt=""> Theory Lecture</li>
+                            <li><img src="bxs_user-detail.svg" alt=""> Ankush Garg</li>
+                            <li><img src="tickmark.svg" alt=""> Yes > 8Qs</li>
+                            <li><span><img src="bluebanda.svg" alt=""> 25   </span> <span><img src="techi.svg" alt=""> 98%</span></li>
+                    </ul>
+                    </div>
+                    <div class="col s4 " style="height: 90px;  border-radius: 5px; margin-left:70px;font-size: 10px ;" >
+                            <ul>
+                                <li><img src="keyboard-open.svg" alt=""> Content Covered</li>
+                                <li>Life Processes, Animal Species</li>
+                                <li><img src="Group 92530.svg" alt=""> SpeEdLabs Issues</li>
+                                <li><img src="lal flag.svg" alt=""> Partner Issues</li>
+                            </ul>
+                    </div>
+            
+                </div>
+
+                <div class="row" style="border: 1px solid #E0E4F0;border-radius: 5px; margin: 4px;" >
+                    
+                
+                    <div class="col s1" style="font-weight: lighter bold;">4</div>
+                   <div class="col s4 " style="height: 110px; margin-right: 10px; ;font-size: 10px ;"  >
+                          <ul>
+                             <li><img src="boxex.svg" alt=""> Theory Lecture</li>
+                             <li><img src="bxs_user-detail.svg" alt=""> Ankush Garg</li>
+                             <li><img src="tickmark.svg" alt=""> Yes > 8Qs</li>
+                             <li><span><img src="bluebanda.svg" alt=""> 25   </span> <span><img src="techi.svg" alt=""> 98%</span></li>
+                        </ul>
+                     </div>
+                    <div class="col s4 " style="height: 90px;  border-radius: 5px; margin-left:70px;font-size: 10px ;" >
+                             <ul>
+                                <li><img src="keyboard-open.svg" alt=""> Content Covered</li>
+                                <li>Life Processes, Animal Species</li>
+                                <li><img src="Group 92530.svg" alt=""> SpeEdLabs Issues</li>
+                                   <li><img src="lal flag.svg" alt=""> Partner Issues</li>
+                            </ul>
+                        </div>
+                   
+                </div>
+
+
+
+        </div>
+    
+    </div>
+
+    <footer class="page-footer grey lighten-5">
+        
+        <div class="s12">
+            <div class="footer-copyright white">
+                <div class="valign-wrapper" style=" color: #8E8E8E;margin-left: 200px;">&copy; Teevra Edutech Pvt Ltd 2019
+                    <ul class="right inline-list" style="margin-left: 600px;">
+                        <li><a href="#" class="tooltipped  transparent" data-tooltip="Facebook">
+                            <i class="fab fa-facebook" style=" color: #333333; font-size: 25px;"></i>
+                        </a></li>
+                        
+                        <li><a href="#" class="tooltipped  transparent" data-tooltip="Twitter">
+                            <i class="fab fa-twitter" style=" color: #333333;font-size: 25px"></i>
+                        </a></li>
+                        <li><a href="#" class="tooltipped  transparent" data-tooltip="Youtube">
+                            <i class="fab fa-youtube" style=" color: #333333;font-size: 25px"></i>
+                        </a></li>
+                        <li><a href="#" class="tooltipped  transparent" data-tooltip="LinkedIn">
+                            <i class="fab fa-linkedin" style=" color: #333333;font-size: 25px"></i>
+                        </a></li>
+                        <li><a href="#" class="tooltipped  transparent" data-tooltip="Instagram">
+                            <i class="fab fa-instagram" style=" color: #333333;font-size: 25px"></i>
+                        </a></li>
+                        </ul>
+                
+                
+                </div>
+              </div>
+        </div>
+
+        <div class="col s4 l4">
+             
+        </div>
+      </footer>
+      
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    
+    
+
+
+    <!-- to initialize the use of #ID need function  -->
+    <script>
+        $(document).ready(function(){
+            $('select').formSelect();
+            $('.tabs').tabs();
+        }
+        )
+    </script>
+</body>
+</html>
